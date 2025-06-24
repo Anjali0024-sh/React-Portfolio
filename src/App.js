@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import "slick-carousel/slick/slick.css"; // Isko add karein
+import "slick-carousel/slick/slick-theme.css"; // Isko bhi add karein
 import './App.css';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Experience from './Components/Experience';
+import Education from './Components/Education';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import Projects from './Components/Projects';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Navbar/>
+        <About />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+        <Footer/>
     </div>
   );
 }

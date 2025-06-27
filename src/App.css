@@ -480,3 +480,31 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 23
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--highlight-color);
 }
+/* --- Certificates Section --- */
+#certificates {
+  background-color: var(--light-purple-bg);
+  color: var(--dark-text-color);
+}
+#certificates h2 {
+  color: var(--dark-bg);
+}
+
+/* Certificate link/button style */
+.certificate-link {
+  display: inline-flex; /* To align icon and text */
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--highlight-color);
+  color: var(--highlight-color);
+  background-color: transparent;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.certificate-link:hover {
+  background-color: var(--highlight-color);
+  color: var(--dark-bg);
+}

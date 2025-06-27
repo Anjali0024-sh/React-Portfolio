@@ -1,13 +1,13 @@
 // src/components/About.js
 import React from 'react';
-
+import profileImg from "../assets/profile.jpg";
 const About = () => {
   return (
     <section id="about" className="section">
       <h2>About Me</h2>
       <div className="about-content">
         <div className="about-image">
-<img src="/profile.jpg" alt="Anjali Sharma" />
+<img src={profileImg} alt="Anjali Sharma" />
         </div>
         <div className="about-text">
 <p>

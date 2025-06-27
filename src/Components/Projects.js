@@ -1,19 +1,19 @@
 import React from 'react';
-// Hum wahi icons use karenge jo footer mein kiye the
+import dashImage from '../assets/Dash.png';
+import CalculatorImage from '../assets/Cal.png';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
-// Aapke projects ka data yahan rakhein
 const projectsData = [
   {
-    image: '/Dash.png',
+    image: dashImage,
     title: 'Product visuaization Dashboard',
     description: 'This dashboard allows you to view and compare male and female data trends over time using interactive charts and date filters.',
     tech: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://fanciful-kheer-d92b0a.netlify.app/', // Yahan deployed link daalein
-    githubLink: 'https://github.com/Anjali0024-sh/Moonshot', // Yahan GitHub repo ka link daalein
-  },
+    liveLink: 'https://fanciful-kheer-d92b0a.netlify.app/', 
+    githubLink: 'https://github.com/Anjali0024-sh/Moonshot', 
+   },
   {
-image: '/Cal.png',
+image: CalculatorImage,
     title: 'Calculators',
     description: 'A smart dashboard offering multiple calculators to perform quick and accurate financial, and unit conversions — all in one place.',
     tech: ['HTML','CSS'],

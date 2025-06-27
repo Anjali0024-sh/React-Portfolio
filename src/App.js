@@ -10,17 +10,21 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Navbar from './Components/Navbar';
+import Certificates from './Components/Certificates';
 
 function App() {
   return (
     <div className="App">
+      <main>
        <Navbar/>
         <About />
         <Experience />
         <Skills />
         <Projects />
         <Education />
+         <Certificates/>
         <Contact />
+        </main>
         <Footer/>
     </div>
   );

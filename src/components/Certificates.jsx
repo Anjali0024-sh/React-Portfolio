@@ -20,6 +20,12 @@ const certificatesData = [
     date: 'Issued Dec 2024',
     link: 'https://drive.google.com/file/d/10UKU7DlWpUBFhtI8zNzzJRIFWkgltjqn/view?usp=sharing', 
   },
+   {
+    title: 'AWS Generative AI',
+    issuer: 'UDACITY',
+    date: 'July 5, 2024',
+    link: 'https://drive.google.com/file/d/1_-kWnJqP8o4aMDvPLq_OzgS91A9Uxphv/view?usp=sharing', 
+  },
 ];
 
 const Certificates = () => {
